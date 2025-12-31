@@ -1,4 +1,4 @@
-# sports_reference_application
+# Sports Reference App
 Converting JSON win-loss data for mlb teams
 
 ## Solution
