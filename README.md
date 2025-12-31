@@ -26,3 +26,17 @@ By sorting the rows and columns and then displaying only the wins for each team,
 | PHI | 8   | 8   | 6   | 9   | 10  | --  | 13  | 8   |
 | PIT | 7   | 10  | 14  | 9   | 7   | 9   | --  | 6   |
 | STL | 11  | 13  | 12  | 14  | 9   | 14  | 16  | --  |
+
+Actual Output:
+```
+Error loading JSON. Replacing ' single quotes with double per json standard format
+      BRO   BSN   CHC   CIN   NYG   PHI   PIT   STL
+BRO   NaN  12.0   7.0   7.0   8.0   8.0   7.0  11.0
+BSN  10.0   NaN   9.0   9.0   9.0   8.0  10.0  13.0
+CHC  15.0  13.0   NaN  10.0  15.0   6.0  14.0  12.0
+CIN  15.0  13.0  12.0   NaN   9.0   9.0   9.0  14.0
+NYG  14.0  13.0   7.0  13.0   NaN  10.0   7.0   9.0
+PHI  14.0  14.0  16.0  13.0  12.0   NaN   9.0  14.0
+PIT  15.0  12.0   8.0  13.0  15.0  13.0   NaN  16.0
+STL  11.0   9.0  10.0   8.0  13.0   8.0   6.0   NaN
+```
