@@ -27,7 +27,8 @@ By sorting the rows and columns and then displaying only the wins for each team,
 | PIT | 7   | 10  | 14  | 9   | 7   | 9   | --  | 6   |
 | STL | 11  | 13  | 12  | 14  | 9   | 14  | 16  | --  |
 
-Actual Output:
+
+## Actual Output:
 ```
 Error loading JSON. Replacing ' single quotes with double per json standard format
       BRO   BSN   CHC   CIN   NYG   PHI   PIT   STL
